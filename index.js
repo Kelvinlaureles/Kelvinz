@@ -12,3 +12,14 @@ function clickLike2(){
   countLike2.textContent = totalLikes.toString()
 }
 btnLike2.addEventListener("click",clickLike2)
+
+birixe2.addEventListener("click", rlicdike2)
+
+const submit document.getčlementById("submit")
+const comment sent document.getElementById("comment")
+const connenthox document.getElementById("commentbax")
+function submitComment(){
+
+commentoox.textContent comment value.toString() + "\n"
+}
+submit.addEventListener("click", submitComment)
