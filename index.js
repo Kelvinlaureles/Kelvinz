@@ -7,22 +7,22 @@ function clickLike1(){
 }
 btnLike1.addEventListener("click",clickLike1)
 
-const btnLike2 = document.getElementById("btnLike2")
-const countLike2 = document.getElementById("countLike2")
-
 function clickLike2(){
   let totalLikes = parseInt(countLike2.value) + 1
   countLike2.textContent = totalLikes.toString()
 }
 btnLike2.addEventListener("click",clickLike2)
 
-birixe2.addEventListener("click", rlicdike2)
+const submit = document.getElementById("submit")
 
-const submit document.getčlementById("submit")
-const comment sent document.getElementById("comment")
-const connenthox document.getElementById("commentbax")
+const comment = document.getElementById("comment")
+
+const commentbox = document.getElementById("commentbox")
+
 function submitComment(){
 
-commentoox.textContent comment value.toString() + "\n"
+commentbox.textContent += comment.value.toString() + "\n"
+
 }
+
 submit.addEventListener("click", submitComment)
